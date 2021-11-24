@@ -16,6 +16,10 @@ Our approach 'designs' protein sequences for target 3D structures via a graph-co
 * PyTorch >= 1.0
 * Numpy
 
+
+## Use to extract V, E
+Use the file extractV_E.py by changing the filepath of the jsonl file to get the V, E
+
 ## Citation
 ```
 @inproceedings{ingraham2019generative,
