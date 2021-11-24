@@ -14,7 +14,7 @@ from struct2seq import *
 from utils import *
 
 args, device, model = setup_cli_model()
-filepath='/Users/janie/Desktop/pre-training/alphafold2_results/results/jsonl_files/CB6_VH.jsonl'
+filepath='../jsonl_files/CB6_VH.jsonl'
 dataset = data.StructureDataset(filepath, truncate=None, max_length=500)
 batch = dataset
 
