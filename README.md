@@ -20,6 +20,9 @@ Our approach 'designs' protein sequences for target 3D structures via a graph-co
 ## Use to extract V, E
 Use the file extractV_E.py by changing the filepath of the jsonl file to get the V, E
 
+## Generate jsonl files from pdb files
+Ues the generate_pdb.py in data folder
+
 ## Citation
 ```
 @inproceedings{ingraham2019generative,
